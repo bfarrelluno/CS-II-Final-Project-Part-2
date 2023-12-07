@@ -238,7 +238,6 @@ class Logic(QMainWindow, Ui_MainWindow):
             self.answerLabel.setText('Error: Need to provide at least 3 values')
             self.numberInput.setText('')
 
-
     def power(self) -> None:
         """
         This function inputs 2 numbers and multiplies the first number by

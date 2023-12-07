@@ -1,5 +1,6 @@
 from logic import *
 
+
 def main() -> None:
     """
     This is the main function for the entire project.
