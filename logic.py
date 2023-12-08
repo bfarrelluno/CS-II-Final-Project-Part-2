@@ -6,7 +6,13 @@ import csv
 
 
 class Logic(QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self) -> None:
+        """
+        Function that initializes the Logic class
+        It also sets up the various function buttons
+        within the GUI.
+        :param self: Parameter that refers to itself.
+        """
         super().__init__()
         self.setupUi(self)
 
